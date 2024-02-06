@@ -5,8 +5,7 @@ def main():
         user_input = input("ENTER: ")
         x = user_input.replace("x", "*").replace("÷", "/")
         result = eval(x)
-        print(result)
-
+        print(f"RESULT: {result}")
 
 
 main()
